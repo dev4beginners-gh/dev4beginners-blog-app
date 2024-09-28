@@ -1,0 +1,52 @@
+name: Bug report
+description: "Create a report to help us improve"
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "### Before you open an issue, please check if a similar issue already exists or has been closed. More details on contributing can be found in [CONTRIBUTING.md](https://github.com/dev4beginners-gh/matrimonial-biodata-generator/blob/main/CONTRIBUTING.md)."
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expectedbhv
+    attributes:
+      label: Expected Behavior
+      description: What was the expected behavior?
+    validations:
+      required: true
+  - type: textarea
+    id: actualbhv
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce (if applicable)
+      description: List the steps to reproduce the issue.
+      placeholder: |
+        1. 
+        2. 
+        3. 
+        4.
+    validations:
+      required: false
+  - type: textarea
+    id: specifications
+    attributes:
+      label: Specifications
+      description: Provide version, platform, and browser details (if applicable).
+      placeholder: |
+        1. Version:
+        2. Platform:
+        3. Browser:
+    validations:
+      required: false

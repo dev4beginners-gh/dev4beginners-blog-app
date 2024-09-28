@@ -1,0 +1,30 @@
+name: Feature request
+description: "Suggest features, propose improvements, discuss new ideas"
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## This issue template is not for requesting new features. Ensure your issue isn't a duplicate and follow our [contributing guidelines](https://github.com/dev4beginners-gh/matrimonial-biodata-generator/blob/main/CONTRIBUTING.md).
+  - type: textarea
+    id: description
+    attributes:
+      label: Motivation
+      description: Describe the motivation behind this feature.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: Provide examples of how this feature can be used (if applicable).
+    validations:
+      required: false
+  - type: textarea
+    id: workarounds
+    attributes:
+      label: Possible workarounds
+      description: Describe any possible workarounds.
+    validations:
+      required: false
