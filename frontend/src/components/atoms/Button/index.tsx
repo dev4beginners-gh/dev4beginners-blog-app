@@ -1,6 +1,6 @@
 /* Eslint no unsed vars disable */
 import React from 'react';
-import { IButton } from '@/utils/interfaces';
+import { IButton } from '@/models/interfaces';
 import { Typography } from '@mui/material'
 import { StyledMuiButton } from './styled';
 import { BUTTON_COMPONENT } from '@/utils/constants';
