@@ -1,4 +1,8 @@
+ 
+/* eslint-disable-next-line no-unused-vars */
 import React from 'react';
+
+/* eslint-enabled-next-line no-unused-vars */
 import { render, fireEvent } from '@testing-library/react'
 import '@testing-library/jest-dom';
 import Button from '.';

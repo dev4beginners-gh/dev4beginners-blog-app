@@ -1,3 +1,4 @@
+/* Eslint no unsed vars disable */
 import React from 'react';
 import { IButton } from '@/utils/interfaces';
 import { Typography } from '@mui/material'

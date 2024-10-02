@@ -7,7 +7,6 @@ export default {
 
   // The directory where Jest should store its cached dependency information
   // cacheDirectory: "C:\\Users\\jeeva\\AppData\\Local\\Temp\\jest",
-
   testEnvironment: 'jest-environment-jsdom',
   // Automatically clear mock calls, instances, contexts and results before every test
   clearMocks: true,
