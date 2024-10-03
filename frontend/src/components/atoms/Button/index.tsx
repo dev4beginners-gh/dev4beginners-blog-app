@@ -18,7 +18,7 @@ const Button = ({
     bgColor={bgColor}
     disabledColor={disabledColor}
     sx={{backgroundColor: bgColor}}
-  {...props}  
+    {...props}  
   >
     <Typography
         color={labelColor}
