@@ -1,7 +1,7 @@
 import React from 'react'
-import { IIcon } from '@/models/interfaces'
 import { StyledIcon } from './styled'
 import { ICON_COMPONENT_DATA_TEST_ID } from '@/utils/constants'
+import { IIcon } from '@/models/icon';
 
 const Icon = ({ 
   src, 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { LINK_REL, LINK_TARGET } from '@/utils/constants';
-import { ILink } from '@/models/interfaces';
+import { ILink } from '@/models/link';
 
 const Link: React.FC<ILink> = ({ 
   href, 
